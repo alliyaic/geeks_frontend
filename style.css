@@ -1,0 +1,29 @@
+body {
+    background-color: peachpuff;
+    background-image: url("https://i.kym-cdn.com/entries/icons/original/000/048/516/Screenshot_2024-02-20_at_10.43.43_AM.jpg");
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#generate {
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: #a43636;
+    cursor: pointer;
+}
+
+#numbers {
+    gap: 10px;
+    word-spacing: 30px;
+    color: white;
+    font-size: 30px;
+
+}
